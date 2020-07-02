@@ -1,0 +1,40 @@
+.select-file-btn {
+    -fx-background-color: crimson;
+    -fx-text-fill: white;
+}
+
+.select-file-btn:hover {
+    -fx-background-color: white;
+    -fx-text-fill: crimson;
+    -fx-border-width: 2px;
+    -fx-border-color: crimson;
+    -fx-border-radius: 2px;
+}
+
+.select-file-btn:pressed {
+    -fx-background-color: crimson;
+    -fx-text-fill: white;
+}
+
+.cell{
+    -fx-alignment: center;
+    -fx-text-fill: darkgreen;
+}
+
+.group-data-btn {
+    -fx-background-color: darkgreen;
+    -fx-text-fill: white;
+}
+
+.group-data-btn:hover {
+    -fx-background-color: white;
+    -fx-text-fill: darkgreen;
+    -fx-border-width: 2px;
+    -fx-border-color: darkgreen;
+    -fx-border-radius: 2px;
+}
+
+.group-data-btn:pressed {
+    -fx-background-color: darkgreen;
+    -fx-text-fill: white;
+}
