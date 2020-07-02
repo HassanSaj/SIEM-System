@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="769.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.analysis.controllers.DisplayFrequencyController">
+   <children>
+      <BorderPane fx:id="displayFrequencyPane" layoutX="6.0" layoutY="44.0" prefHeight="409.0" prefWidth="757.0" style="-fx-border-width: 1px; -fx-border-color: rgba(0,0,0,0.3);" AnchorPane.bottomAnchor="19.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="6.0" AnchorPane.topAnchor="44.0">
+         <center>
+            <Label text="No data loaded!" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+      <Label layoutX="315.0" layoutY="14.0" prefHeight="25.0" prefWidth="157.0" style="-fx-alignment: center; -fx-font-size: 20px;" text="Frequency" AnchorPane.leftAnchor="315.0" AnchorPane.rightAnchor="297.0" AnchorPane.topAnchor="14.0" />
+   </children>
+</AnchorPane>
